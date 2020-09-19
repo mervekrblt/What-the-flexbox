@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    background-image: url(https://ishadeed.com/assets/grid-flex/grid-vs-flexbox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+    background-attachment: fixed;
+}
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100vh;
+    margin: 10% 10%;
+    
+} 
+
+.box{
+    /*Dont write flex :1 */
+    /*VERYYY IMPORTANTTT BELOWWW*/
+    width: calc(33.33333% - 22px); /*20px marginden 2px borderdan*/
+    margin: 10px;
+    text-align: center;
+    height: 10rem;
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 1rem;
+}
+
+/* div.box{
+    background-color: rgb(224, 122, 95, 0.7)
+} */
+
+a{
+    color: black;
+    font-size: 2rem;
+}
