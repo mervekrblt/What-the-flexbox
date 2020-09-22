@@ -10,11 +10,12 @@
 .box10 { background:#16a085;}
 
 
+
 .container{
     font-size:  50px;
     display: flex;
     text-align: center;  
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
 
@@ -25,4 +26,8 @@
     flex-direction: column;    justify-content: center;
     border: 1px black solid;
     min-height: 100vh;
+}
+
+.flex{
+    flex: 1;
 }
